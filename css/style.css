@@ -238,7 +238,7 @@ mark{
     margin-top: 10px;
 }
 .hobbies{
-     display: block;
+    display: block;
     width: 100%;
     color: #D6F0FF;
     padding: 10px;
@@ -255,4 +255,45 @@ mark{
    text-align: center;
     font-size: 50px;
     font-family: 'Yatra One', cursive; 
+}
+@media (max-width: 768px) {
+    .titulo{
+        font-size: 20px;
+        text-align: center;
+    }
+    .subtitulo{
+        font-size: 10px;
+        text-align: center;
+    }
+    .category-grid{
+        grid-template-columns: 1fr;
+        gap: 40px;
+        padding: 20px;
+    }
+    .category-box{
+        padding: 20px;
+        font-size: 25px;
+    }
+    .about-content{
+        flex-direction: column;
+    
+    }
+    .profile-pic{
+        width: 250px;
+        height: 250px;
+    }
+    .about-text{
+        font-size: 35px;
+    }
+    .nav ul{
+        flex-direction: column;
+    }
+    .nav li a{
+        width: 100%;
+        text-align: center;
+    }
+    .history legend,
+    .hobbies legend {
+        font-size: 30px;
+    }
 }
