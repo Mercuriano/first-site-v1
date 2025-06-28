@@ -1,0 +1,258 @@
+body{
+     font-family: 'Times New Roman', Times, serif, 'Yatra One';
+     margin: 0;
+     padding: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.branding{
+    padding: 0px;
+    background-color: #04020E;
+}
+.branding-content{
+    margin: 0 auto;
+    text-align: center;
+    gap: 15px;
+    align-items: center;
+    display: block;
+    background-color: #04020E;
+}
+.branding-content figure{
+    display: flex;
+    justify-content: center;
+}
+.titulo{
+    justify-content: center;
+    font-family: 'Yatra One', cursive;
+    font-size: 50px;
+    color: aliceblue;
+    display: flex;
+    background-color: #04020E;
+}
+.subtitulo{
+    text-align: center;
+    display: block;
+    font-size: 20px;
+    font-family: 'Yatra One', cursive;
+    color: aliceblue;
+    background-color: #04020E;
+}
+.social-icons{
+    text-align: center;
+    padding: 20px;
+}
+.social-icons i{
+    margin-top: 0;
+    justify-content: center;
+    font-size: 40px;
+    transition: transform 0.3s ease;
+    text-decoration: none;
+    text-align: center;        
+}
+.social-icons i:hover{
+    transform: scale(1.2);
+    color: #05282B;
+    text-decoration: none;
+    text-align: center;
+}
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.03); }
+}
+.banner-image{
+    width: 100%;
+    height: 400px;
+    border: 5px groove black;
+    box-shadow: 1px 1px 2px rgb(6, 0, 0);
+    background-color: #04020E;
+    display: block;
+    animation: pulse 3s infinite;
+}
+.main{
+    background-color: #04020E;
+}
+.category-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+    padding: 40px;
+    background-color: #04020E;
+    max-width: 1000px;
+    margin: auto;
+}
+.category-box{
+    padding: 50px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: 'Yatra One' cursive;
+    background-color: #05282B;
+    /* border-radius: 50px; */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 1px 1px 5px #00090a;
+    background-color: #04020E;
+
+}
+.category-box:hover{
+    transform: scale(1.05);
+    box-shadow: 2px 2px 5px #05282B;
+}
+.category-about,
+.category-news,
+.category-portfolio,
+.category-contact {
+    background-color: #05282B;
+    color: white;
+    display: block;
+    font-size: 30px;
+    font-family: 'Yatra One',cursive;
+    border: 3px groove black;
+}
+.category-about:hover,
+.category-news:hover,
+.category-portfolio:hover,
+.category-contact:hover{
+    color: black;
+}
+.copy{
+    background-color: #04020E;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-top: 4px groove black
+}
+.about-content{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+    padding: 10px;
+    background-color: #04020E;
+}
+.about-content figure{
+   margin: 0px;
+}
+.profile-pic{
+   width: 400px;
+   height: 400px;
+   border-radius: 100%; 
+   border: 10px groove black;  
+}
+.about-text{
+    color: white;
+    font-size: 70px;
+    border: 10px groove black;
+    text-align: center;
+    font-family: 'Yatra One', cursive;
+    width: 100%;
+    padding: 0;
+    background-color:#05282B;
+}
+.nav{
+    background-color: #04020E;
+}
+.nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 20px;
+    gap: 10px;
+
+}
+.nav li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    background-color: #05282B;
+    padding: 10px;
+    border: 2px groove black;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+.nav li a:hover{
+    transform: scale(1.2);
+    color:#010607;
+}
+.history{
+    display: block;
+    width: 100%;
+    color: #D6F0FF;
+    padding: 10px;
+    background-color: #04020E;
+}
+.history fieldset{
+   background-color: #05282B;
+   padding: 10px;
+   border: 8px groove black;
+   box-shadow: 2px 3px 10px black;
+   text-align: left;
+}
+.history legend{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Yatra One', cursive;
+}
+.college{
+    font-size: 30px;
+}
+.college-1,
+.college-2{
+    font-size: 20px;
+    color:#E0E0E0;
+    margin-left: 20px;
+}
+.traineeship{
+    margin-top: 30px;
+    font-size: 30px;
+}
+.traineeship-1,
+.traineeship-2,
+.traineeship-3
+{
+    font-size: 20px;
+    color: #E0E0E0;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+mark{
+    background-color: white;
+}
+#storymap{
+    text-decoration: none;
+    color: red;
+}
+.ic{
+    margin-top: 30px;
+    font-size: 30px; 
+}
+.ic-1,
+.ic-2,
+.ic-3{
+    font-size: 20px;
+    color:#E0E0E0;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.hobbies{
+     display: block;
+    width: 100%;
+    color: #D6F0FF;
+    padding: 10px;
+    background-color: #04020E;
+}
+.hobbies fieldset{
+   background-color: #05282B;
+   padding: 10px;
+   border: 8px groove black;
+   box-shadow: 2px 3px 10px black;
+   text-align: left;
+}
+.hobbies legend{
+   text-align: center;
+    font-size: 50px;
+    font-family: 'Yatra One', cursive; 
+}
