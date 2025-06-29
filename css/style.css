@@ -149,6 +149,11 @@ body{
     text-align: center;
     font-family: 'Yatra One', cursive;
     width: 100%;
+    text-shadow: 
+    -2px -2px black,
+    -2px -2px black,
+    -2px -2px black,
+    -2px -2px black;
     padding: 0;
     background-color:#05282B;
 }
@@ -180,7 +185,7 @@ body{
 .history{
     display: block;
     width: 100%;
-    color: #D6F0FF;
+    color: rgb(249, 213, 249);
     padding: 10px;
     background-color: #04020E;
 }
@@ -218,12 +223,10 @@ body{
     margin-left: 20px;
     margin-top: 10px;
 }
-mark{
-    background-color: white;
-}
 #storymap{
     text-decoration: none;
-    color: red;
+    color: #8D5D46;
+    font-style: oblique;
 }
 .ic{
     margin-top: 30px;
@@ -236,6 +239,13 @@ mark{
     color:#E0E0E0;
     margin-left: 20px;
     margin-top: 10px;
+}
+.ic-1 a,
+.ic-2 a,
+.ic-3 a{
+    text-decoration: none;
+    color: #8D5D46;
+    font-style: oblique;
 }
 .hobbies{
     display: block;
